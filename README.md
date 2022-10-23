@@ -1,5 +1,4 @@
 # python_mpag
-This is for feedback on my python code for the python mpag course.
 images are taken of a  laser focused onto a CCD with different experimental set up`s i.e. laser with more power, we want to measure the size of the area the focused laser takes up on the CCD so that we are not pixel limiting when we set the actual experiment. knowing the pixel size and distribution this can be worked out.  
 
 
@@ -17,6 +16,7 @@ images of when the laser was off were taken this is use for image subtraction.
 # 3) using matplot.lib a 2D scaled graph is created showing the cropped image (2D array). taking a certain y value a 1D plot of the distribution is created. 
 
 # 4) using iminuit to find the gaussian distribution or not 
+the hard bit...
 
 # 5) measure FWHM 
 from that work with give you the diameter of the distribution scale this up to get the area, i.e. the final results.
